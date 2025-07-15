@@ -1,15 +1,3 @@
-/*Sources:
-* https://en.wikibooks.org/wiki/A-level_Computing/AQA/Paper_1/Fundamentals_of_data_structures/Dictionaries 
-* https://en.wikipedia.org/wiki/Frequency_analysis 
-* https://www.ascii-code.com/ 
-* https://www.tutorialspoint.com/cprogramming/c_type_casting.htm 
-* https://www.quora.com/How-do-you-compare-two-characters-in-C 
-* https://www.browserling.com/tools/letter-frequency (I used this site to count the frequency of characters in each text file and then make sure my program had the same answer)
-* https://www.calculatorsoup.com/calculators/math/modulo-calculator.php 
-* https://text-compare.com/ 
-* https://www.tutorialspoint.com/c_standard_library/ctype_h.htm 
-* https://www.tutorialspoint.com/c_standard_library/c_function_isprint.htm */
-
 /* Note: I was running into errors and found that there were some characters in the .txt files that were causing a problem for me and not printing. I did some 
 * research (and linked my sources above) and found that there is such a thing as unprintable characters, which is what these problem characters are. The sources I
 * found said that there's a function in the ctype.h library called isprint, which checks if a character is printable or not. So, to combat my problem, I included 
